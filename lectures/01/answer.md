@@ -8,8 +8,26 @@
 
 ## 宿題
 
-- 取り組んだレベル：基礎 / 実装 / 発展
-- やったこと：
+- 取り組んだレベル：基礎
+- やったこと：３つのモデルで同じ質問をし、出力を確認した。
 - 結果：
+[model] gemini-3.6-flash
+[質問] LoRAとは何ですか？
+
+[usage] input_tokens=7 output_tokens=680
+**LoRA（ローラ）**とは、**「Low-Rank Adaptation」**の略で、AIモデル（画像生成AIや大規模言語モデルなど）を**少ない計算量とデータ量で効率的に追加学習（ファインチューニング）させるための技術**です。
+
+[model] gemini-3.5-flash-lite
+[質問] LoRAとは何ですか？
+
+[usage] input_tokens=7 output_tokens=612
+**LoRA（ローラ）**とは、AI（特に大規模言語モデルや画像生成AI）の分野で使われる、**「AIの追加学習（ファインチューニング）を非常に少ないコストで行うための技術」**の名前です。
+
+[model] gemini-3.5-flash
+[質問] LoRAとは何ですか？
+
+[usage] input_tokens=7 output_tokens=748
+**LoRA（ローラ、Low-Rank Adaptation）**とは、AIモデル（特に画像生成AIや大規模言語モデル：LLM）を**効率よく追加学習（ファインチューニング）するための技術**です。
+
 - 気づき・疑問：
 各モデルで微妙に言い回しや長さ、トークンが異なる。
